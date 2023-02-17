@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Meu formulário</legend>
+            <div><input type="text" name="nome" placeholder="Digite seu nome..." /></div>
+            <div><input type="text" name="email" placeholder="Seu email..." /></div>
+            <div>
+                <select name="lista">
+                    <option value="idade" disable selected>Qual sua idade?</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                </select>
+            </div>
+            <div>
+                <h2>Qual a sua cidade?</h2>
+            </div>
+                <div class="radios">
+            <div>
+                <input type="radio" name="cidade" value=""><span>Curitiba</span>
+            </div>
+            <div>
+                <input type="radio" name="cidade" value=""><span>São José dos Pinhais</span>
+            </div>
+            <div>
+                <input type="radio" name="cidade" value=""><span>Pinhais</span>
+            </div>
+                </div>
+             <div>
+                <h2>A quanto tempo você mora nessa cidade?</h2>
+            </div>
+                <div class="radios">
+            <div>
+                <input type="checkbox" name="tempo" value=""><span>De 1 a 3 anos</span>
+            </div>
+            <div>
+                <input type="checkbox" name="tempo" value=""><span>De 4 a 8 anos</span>
+            </div>
+            <div>
+                <input type="checkbox" name="tempo" value=""><span>mais de 9 anos</span>
+            </div>
+                </div>
+                <div>
+                    <textarea name="obs" placeholder="Possui alguma observação?"></textarea>
+                </div>
+                <div>
+                    <input type="submit" name="acao" value="Enviar" />
+                </div>
+        </fieldset>
+    </form>
+</body>
+</html>
