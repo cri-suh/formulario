@@ -69,3 +69,17 @@ form textarea{
     padding:10px 13px;
     resize:none;
 }
+input[type=file]{
+    display: none;
+}
+label{
+   background-color:rgb(230,230,230); 
+   margin-left:20px;
+   padding:5px;
+   font-size:14px;
+   color:black;
+   cursor:pointer;
+}
+.arquivos span{
+    color:rgb(100,100,100); 
+}
